@@ -1,6 +1,6 @@
 # Junyuan Liu（刘俊圆）
 
-- Target: Internship in Computer Graphics / Physics Simulation / GPU Computing (editable)
+- Target: Internship in Computer Graphics / Physics Simulation / GPU Computing
 - GitHub: [github.com/sexymonk](https://github.com/sexymonk)
 - Email: [junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)
 - Phone: +86 135 9593 83335
@@ -8,7 +8,7 @@
 
 ## Summary
 
-Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–expected 2028.01). I work on particle-based fluid simulation and fluid–solid coupling in computer graphics, with interests in semi-analytical boundary handling, variational/energy-based formulations, and GPU acceleration. Strong C/C++/CUDA implementation skills, plus prior industry experience in software platform development and test automation.
+Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–expected 2028.01), currently working in Prof. Xiaowei He’s group at the Institute of Software, Chinese Academy of Sciences. I work on particle-based fluid simulation and fluid–solid coupling in computer graphics, with interests in semi-analytical boundary handling, variational/energy-based formulations, and GPU acceleration. Strong C/C++/CUDA implementation skills, plus prior industry experience in software platform development and test automation.
 
 ## Education
 
@@ -34,23 +34,21 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
   - Authors: Junyuan Liu et al.
   - Affiliations: UCAS; Institute of Software, Chinese Academy of Sciences
   - Supplementary video: [Web Version (MP4)](../media/supplementary.web.mp4)
-  - Highlights (adjust to your actual contributions):
+  - Highlights:
     - Proposed a semi-analytical energy model unifying fluid bulk energy and boundary contact potentials in a variational framework
     - Designed a unified Hessian-free solver compatible with SISPH, combined with reduced-order continuous collision detection for efficient GPU implementation
     - Improved robustness under fast-moving complex mesh boundaries and severe compression scenarios
 
 ## Projects
 
-> Baseline info is extracted from your previous resume; MSc/PhD projects are rewritten in a more interview-ready format. Add quantified results (speed/stability/accuracy/VRAM) and I’ll polish further.
-
 - PeriDyno Open-source Physics Simulation Platform Development (core MSc/PhD project)
   - Dates: 2023 – Present
-  - Tech stack: C++ / CUDA / (OpenGL if applicable) / Git (please confirm)
-  - What you did (to refine with your details):
+  - Group: Prof. Xiaowei He’s group, Institute of Software, Chinese Academy of Sciences
+  - Tech stack: C++ / CUDA / Git
+  - What you did:
     - Implemented key modules for graphics-oriented physics simulation and integrated prototypes into production-quality code
     - Optimized parallel kernels and data structures to improve performance and stability
     - Supported particle fluid simulation with complex boundary interactions
-  - Links: TODO
 
 - UAV localization from RF signals (thesis project)
   - Dates: 2018 – 2019
@@ -66,12 +64,8 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 - Languages: C / C++ / CUDA / Java / Python
 - Graphics/Simulation: particle methods (SPH-related), fluid–structure interaction, variational optimization
-- Tooling: Git, (CMake/IDE/toolchain: TODO)
+- Tooling: Git, CMake, Linux
 - Scientific tools: MATLAB, OpenCV
-
-## Awards
-
-- TODO
 
 ## Activities
 
@@ -81,7 +75,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 - Teaching Assistant, “Spatial Observation Technology for Natural Disasters”, UCAS
   - Dates: 2025.03 – 2025.07
-  - Responsibilities: TODO (e.g., lab sessions, Q&A, materials prep, grading)
 
 ## Notes
 
