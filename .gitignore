@@ -13,6 +13,10 @@ iCloud 照片_unzipped/
 *.pdf
 assets/avatar_source.*
 
+# Local exports
+resume/*.pdf
+resume/*.html
+
 # Large / raw media
 media/supplementary.mp4
 
