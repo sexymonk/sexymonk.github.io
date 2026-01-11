@@ -16,7 +16,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 - University of Chinese Academy of Sciences (UCAS), Beijing, China
   - Ph.D. · Computer Application Technology
   - Dates: 2025.03 – expected 2028.01
-  - School/College: School of Emergency Management Science and Engineering
 
 - University of Chinese Academy of Sciences (UCAS), Beijing, China
   - M.S. · Computer Application Technology
@@ -80,7 +79,7 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 - Campus roles:
   - DJI Club, Zhejiang University — Vice Minister (2016 – 2018)
-  - Student Union, UCAS (School of Emergency Management Science and Engineering) — Chair (2022 – 2023)
+  - Student Union, UCAS — Chair (2022 – 2023)
   - Class 2801, UCAS — Study Commissary (2022 – 2024)
 
 - Materials available: paper/tech report, code samples, reproduction instructions
