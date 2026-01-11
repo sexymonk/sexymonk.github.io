@@ -73,9 +73,9 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 - TODO
 
-## Activities / Proof
+## Activities
 
-- Deep participation in UCAS “Spring Equinox Project” youth science outreach initiative (certificate dated 2025-09-10)
+- Deep participation in UCAS “Spring Equinox Project” youth science outreach initiative (2025.09)
 
 ## Teaching
 

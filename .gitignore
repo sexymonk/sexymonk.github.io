@@ -11,6 +11,7 @@ iCloud 照片_unzipped/
 微信图片_*.jpg
 *.JPEG
 *.pdf
+assets/avatar_source.*
 
 # Large / raw media
 media/supplementary.mp4
