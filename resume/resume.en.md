@@ -55,11 +55,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
   - Tech stack: MATLAB
   - Built signal processing pipeline and localization implementation
 
-- Vision-based line-following smart car
-  - Dates: 2018
-  - Tech stack: OpenCV / C/C++
-  - Implemented steering and speed control based on camera processing outputs
-
 ## Skills
 
 - Languages: C / C++ / CUDA / Java / Python
