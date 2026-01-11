@@ -131,16 +131,18 @@ def main() -> int:
         str(browser),
         "--headless",
         "--disable-gpu",
+        "--disable-print-preview",
+        "--kiosk-printing",
         f"--print-to-pdf={str(out_pdf.resolve())}",
+        # Chromium flag to disable header/footer (date/url/page numbers)
         "--print-to-pdf-no-header",
-        "--no-margins",  # some builds ignore this; harmless
         file_url,
     ]
 
     try:
         subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except Exception:
-        # Retry without --no-margins (compat)
+        # Retry with a minimal flag set (compat)
         cmd2 = [
             str(browser),
             "--headless",
