@@ -1,6 +1,9 @@
 # 刘俊圆（Junyuan Liu）
 
+![个人照片](../assets/avatar.png)
+
 - 求职意向：图形学/物理仿真/并行计算相关实习
+- 个人主页：https://sexymonk.github.io/
 - 主页：GitHub [github.com/sexymonk](https://github.com/sexymonk)
 - ORCID：[0009-0005-1829-9914](https://orcid.org/0009-0005-1829-9914)
 - 邮箱：[junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)

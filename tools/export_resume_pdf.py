@@ -68,6 +68,7 @@ def _md_to_html(md_text: str, title: str) -> str:
     li {{ margin: 2px 0; }}
     hr {{ border: 0; border-top: 1px solid #ddd; margin: 12px 0; }}
     a {{ color: #0b57d0; text-decoration: none; }}
+        img {{ max-width: 110px; height: auto; border-radius: 12px; float: right; margin: 0 0 8px 12px; }}
     code, pre {{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }}
     pre {{ white-space: pre-wrap; background: #f6f8fa; padding: 8px; border-radius: 6px; }}
     blockquote {{ margin: 8px 0; padding-left: 10px; border-left: 3px solid #ddd; color: #444; }}
@@ -131,6 +132,7 @@ def main() -> int:
         "--headless",
         "--disable-gpu",
         f"--print-to-pdf={str(out_pdf.resolve())}",
+        "--print-to-pdf-no-header",
         "--no-margins",  # some builds ignore this; harmless
         file_url,
     ]
@@ -144,6 +146,7 @@ def main() -> int:
             "--headless",
             "--disable-gpu",
             f"--print-to-pdf={str(out_pdf.resolve())}",
+            "--print-to-pdf-no-header",
             file_url,
         ]
         subprocess.run(cmd2, check=True)
