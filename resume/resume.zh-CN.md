@@ -1,6 +1,6 @@
 # 刘俊圆（Junyuan Liu）
 
-- 求职意向：图形学/物理仿真/并行计算相关实习（可按岗位调整）
+- 求职意向：图形学/物理仿真/并行计算相关实习
 - 主页：GitHub [github.com/sexymonk](https://github.com/sexymonk)
 - ORCID：[0009-0005-1829-9914](https://orcid.org/0009-0005-1829-9914)
 - 邮箱：[junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)
@@ -59,7 +59,7 @@
 ## 技能
 
 - 编程语言：C / C++ / CUDA / Java / Python（按需取舍）
-- 数值与仿真：粒子法（SPH 相关）、流固耦合、数值优化/变分求解（关键词可按岗位调整）
+- 数值与仿真：粒子法（SPH 相关）、流固耦合、数值优化/变分求解
 - 工程工具：Git、CMake、Linux
 - 科研工具：MATLAB、OpenCV
 
