@@ -32,7 +32,7 @@
 
 ## 科研 / 论文
 
-- A Semi-Analytical Energy-Based Boundary Handling Method for Particle Fluids
+- A Semi-Analytical Energy Model for Particle-Based Fluid Simulation Involving Complex Moving Boundaries
   - 会议/期刊：Eurographics 2026（Computer Graphics Forum）
   - 作者：Junyuan Liu 等
   - 机构：University of Chinese Academy of Sciences；Institute of Software, Chinese Academy of Sciences

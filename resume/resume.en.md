@@ -29,7 +29,7 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 ## Publications / Research
 
-- A Semi-Analytical Energy-Based Boundary Handling Method for Particle Fluids
+- A Semi-Analytical Energy Model for Particle-Based Fluid Simulation Involving Complex Moving Boundaries
   - Venue: Eurographics 2026 (Computer Graphics Forum)
   - Authors: Junyuan Liu et al.
   - Affiliations: UCAS; Institute of Software, Chinese Academy of Sciences
