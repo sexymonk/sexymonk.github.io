@@ -2,13 +2,14 @@
 
 - Target: Internship in Computer Graphics / Physics Simulation / GPU Computing
 - GitHub: [github.com/sexymonk](https://github.com/sexymonk)
+- ORCID: [0009-0005-1829-9914](https://orcid.org/0009-0005-1829-9914)
 - Email: [junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)
 - Phone: +86 135 9593 83335
 - Location: Beijing, China
 
 ## Summary
 
-Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–expected 2028.01), currently working in Prof. Xiaowei He’s group at the Institute of Software, Chinese Academy of Sciences. I work on particle-based fluid simulation and fluid–solid coupling in computer graphics, with interests in semi-analytical boundary handling, variational/energy-based formulations, and GPU acceleration. Strong C/C++/CUDA implementation skills, plus prior industry experience in software platform development and test automation.
+Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–expected 2028.01), currently working in [Prof. Xiaowei He](https://peridynamics.com/index.html)’s group at the Institute of Software, Chinese Academy of Sciences. I work on particle-based fluid simulation and fluid–solid coupling in computer graphics, with interests in semi-analytical boundary handling, variational/energy-based formulations, and GPU acceleration. Strong C/C++/CUDA implementation skills, plus prior industry experience in software platform development and test automation.
 
 ## Education
 
@@ -43,7 +44,7 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 
 - PeriDyno Open-source Physics Simulation Platform Development (core MSc/PhD project)
   - Dates: 2023 – Present
-  - Group: Prof. Xiaowei He’s group, Institute of Software, Chinese Academy of Sciences
+  - Group: [Prof. Xiaowei He](https://peridynamics.com/index.html)’s group, Institute of Software, Chinese Academy of Sciences
   - Tech stack: C++ / CUDA / Git
   - What you did:
     - Implemented key modules for graphics-oriented physics simulation and integrated prototypes into production-quality code
