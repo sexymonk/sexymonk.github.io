@@ -1,6 +1,6 @@
 # 刘俊圆（Junyuan Liu）
 
-![个人照片](../assets/avatar.png)
+![个人照片](../assets/avatar.png?v=20260112)
 
 - 求职意向：图形学/物理仿真/并行计算相关实习
 - 个人主页：https://sexymonk.github.io/
