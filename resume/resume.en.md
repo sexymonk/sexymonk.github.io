@@ -33,7 +33,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
   - Venue: Eurographics 2026 (Computer Graphics Forum)
   - Authors: Junyuan Liu et al.
   - Affiliations: UCAS; Institute of Software, Chinese Academy of Sciences
-  - Supplementary video: [Web Version (MP4)](../media/supplementary.web.mp4)
   - Highlights:
     - Proposed a semi-analytical energy model unifying fluid bulk energy and boundary contact potentials in a variational framework
     - Designed a unified Hessian-free solver compatible with SISPH, combined with reduced-order continuous collision detection for efficient GPU implementation
@@ -45,7 +44,7 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
   - Dates: 2023 – Present
   - Group: [Prof. Xiaowei He](https://peridynamics.com/index.html)’s group, Institute of Software, Chinese Academy of Sciences
   - Tech stack: C++ / CUDA / Git
-  - What you did:
+  - Taking charge:
     - Implemented key modules for graphics-oriented physics simulation and integrated prototypes into production-quality code
     - Optimized parallel kernels and data structures to improve performance and stability
     - Supported particle fluid simulation with complex boundary interactions
@@ -60,16 +59,15 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 - Languages: C / C++ / CUDA / Java / Python
 - Graphics/Simulation: particle methods (SPH-related), fluid–structure interaction, variational optimization
 - Tooling: Git, CMake, Linux
-- Scientific tools: MATLAB, OpenCV
+- Scientific tools: MATLAB
 
 ## Activities
 
-- Deep participation in UCAS “Spring Equinox Project” youth science outreach initiative (2025.09)
+- Deep participation in UCAS “Spring Equinox Project” youth science outreach initiative (2024.04 - 2025.09)
 
 ## Teaching
 
-- Teaching Assistant, “Spatial Observation Technology for Natural Disasters”, UCAS
-  - Dates: 2025.03 – 2025.07
+- Teaching Assistant, “Spatial Observation Technology for Natural Disasters”, UCAS(2025.03 – 2025.07) 
 
 ## Notes
 
@@ -78,8 +76,10 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
   - Automation testing scripts and test platform source code improvements
 
 - Campus roles:
-  - DJI Club, Zhejiang University — Vice Minister (2016 – 2018)
-  - Student Union, UCAS — Chair (2022 – 2023)
-  - Class 2801, UCAS — Study Commissary (2022 – 2024)
+  - Zhejiang University (2016 – 2018)
+    - DJI Club — Vice Minister
+  - UCAS (2022 – 2024)
+    - College Student Union — Chair (2022 – 2023)
+    - Class 2801 — Study Commissary (2022 – 2024)
 
 - Materials available: paper/tech report, code samples, reproduction instructions
