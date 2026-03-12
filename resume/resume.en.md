@@ -49,11 +49,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
     - Optimized parallel kernels and data structures to improve performance and stability
     - Supported particle fluid simulation with complex boundary interactions
 
-- UAV localization from RF signals (thesis project)
-  - Dates: 2018 – 2019
-  - Tech stack: MATLAB
-  - Built signal processing pipeline and localization implementation
-
 ## Skills
 
 - Languages: C / C++ / CUDA / Java / Python
@@ -64,10 +59,6 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
 ## Activities
 
 - Deep participation in UCAS “Spring Equinox Project” youth science outreach initiative (2024.04 - 2025.09)
-
-## Teaching
-
-- Teaching Assistant, “Spatial Observation Technology for Natural Disasters”, UCAS(2025.03 – 2025.07) 
 
 ## Notes
 
