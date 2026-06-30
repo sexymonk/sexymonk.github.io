@@ -32,9 +32,6 @@
 
   setLang(getDefaultLang());
 
-  const btn = document.getElementById('printBtn');
-  if (btn) btn.addEventListener('click', () => window.print());
-
   const langToggle = document.getElementById('langToggle');
   if (langToggle) {
     langToggle.addEventListener('click', () => {
@@ -42,4 +39,48 @@
       setLang(next);
     });
   }
+
+  const parseRgb = (value) => {
+    const match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+    return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : [255, 255, 255];
+  };
+
+  const pageIsDark = () => {
+    const [r, g, b] = parseRgb(getComputedStyle(document.body).backgroundColor);
+    return (r * 299 + g * 587 + b * 114) / 1000 < 128;
+  };
+
+  const updateActivityImages = () => {
+    const dark = pageIsDark();
+    document.querySelectorAll('.activity-thumb[data-light-src][data-dark-src]').forEach((img) => {
+      const next = dark ? img.dataset.darkSrc : img.dataset.lightSrc;
+      if (next && img.getAttribute('src') !== next) img.setAttribute('src', next);
+    });
+  };
+
+  const getDefaultTheme = () => {
+    const stored = (localStorage.getItem('theme') || '').toLowerCase();
+    return stored === 'dark' ? 'dark' : 'light';
+  };
+
+  const setTheme = (theme) => {
+    const safe = theme === 'dark' ? 'dark' : 'light';
+    document.body.classList.toggle('theme-dark', safe === 'dark');
+    localStorage.setItem('theme', safe);
+    updateActivityImages();
+  };
+
+  const themeToggle = document.getElementById('themeToggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = document.body.classList.contains('theme-dark') ? 'light' : 'dark';
+      setTheme(next);
+    });
+  }
+
+  setTheme(getDefaultTheme());
+  updateActivityImages();
+  window.refreshActivityImages = updateActivityImages;
+  const scheme = window.matchMedia?.('(prefers-color-scheme: dark)');
+  if (scheme) scheme.addEventListener('change', updateActivityImages);
 })();

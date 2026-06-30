@@ -26,6 +26,28 @@ body{
 
 a{color:inherit}
 
+body.theme-dark{
+  --bg:#181818;
+  --panel:#181818;
+  --card:#181818;
+  --text:#e5edf8;
+  --muted:#a9b7cc;
+  --border:rgba(226,232,240,.16);
+  --shadow:0 18px 50px rgba(0,0,0,.28);
+}
+
+body.theme-dark .header{
+  background:#181818;
+}
+
+body.theme-dark .pill{
+  background:rgba(37,99,235,.16);
+}
+
+body.theme-dark .pill.secondary{
+  background:rgba(255,255,255,.04);
+}
+
 .skip{
   position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;
 }
@@ -84,6 +106,38 @@ a{color:inherit}
 .pill.secondary{background:#ffffff}
 .pill:hover{border-color:rgba(37,99,235,.28); background:rgba(37,99,235,.08)}
 
+.icon-pill{
+  width:42px;
+  height:42px;
+  padding:0;
+  display:inline-grid;
+  place-items:center;
+  flex:0 0 auto;
+}
+
+.theme-icon{
+  width:18px;
+  height:18px;
+  border:2px solid currentColor;
+  border-radius:6px;
+  background:linear-gradient(135deg, currentColor 0 50%, transparent 50%);
+  display:block;
+}
+
+body.theme-dark .theme-icon{
+  background:linear-gradient(135deg, transparent 0 50%, currentColor 50%);
+}
+
+.brand-icon{
+  width:19px;
+  height:19px;
+  display:block;
+}
+
+.github-icon{fill:currentColor}
+.orcid-bg{fill:#a6ce39}
+.orcid-id{fill:#ffffff}
+
 .main{padding:22px 0 52px}
 .section{margin:18px 0 20px}
 .section h2{margin:0 0 12px; font-size:18px; letter-spacing:.2px}
@@ -99,15 +153,29 @@ a{color:inherit}
 .muted{color:var(--muted)}
 .todo{font-family:var(--mono); color: #ffd08a}
 
-.contact{display:flex; align-items:center}
+.contact{
+  display:flex;
+  align-items:center;
+}
 .contact-grid{
   display:grid;
-  grid-template-columns: 1fr;
-  gap:10px 16px;
+  grid-template-columns: minmax(0, 1.25fr) minmax(128px, .75fr);
+  gap:10px 14px;
   width:100%;
 }
+.contact-cell{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+.contact-cell:nth-child(3){grid-column:1 / -1}
 .label{font-size:12px; color:var(--muted)}
-.value{font-weight:650}
+.value{
+  font-weight:650;
+  line-height:1.35;
+  word-break:break-word;
+}
 
 .timeline .item{margin-bottom:12px}
 .item-head{display:flex; justify-content:space-between; gap:12px; align-items:baseline}
@@ -118,43 +186,49 @@ a{color:inherit}
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap:12px;
+  align-items:stretch;
 }
+
+.grid > .card{height:100%}
 
 .project h3{margin:0 0 6px; font-size:16px}
 
-.ai-workflow{
+.activity-card{
   display:grid;
-  grid-template-columns: minmax(0, .92fr) minmax(280px, 1.08fr);
-  gap:16px;
+  grid-template-columns:minmax(0,1fr) 180px;
+  gap:12px;
   align-items:center;
+  height:100%;
 }
 
-.ai-workflow h3{margin:0 0 6px; font-size:16px}
-
-.metric-row{
+.activity-mini-metrics{
   display:flex;
   flex-wrap:wrap;
-  gap:8px;
-  margin-top:12px;
+  gap:6px;
+  margin-top:8px;
 }
 
-.metric-row span{
+.activity-mini-metrics span{
   display:inline-flex;
   border:1px solid var(--border);
   border-radius:999px;
-  padding:6px 9px;
+  padding:4px 7px;
   background:var(--panel);
   color:var(--muted);
-  font-size:13px;
+  font-size:11px;
   font-weight:650;
 }
 
-.activity-image{
+.activity-thumb{
   width:100%;
-  border-radius:14px;
-  border:1px solid rgba(15,23,42,.12);
+  height:96px;
+  object-fit:cover;
+  object-position:left top;
+  border-radius:12px;
+  border:0;
   display:block;
-  background:#111;
+  background:transparent;
+  margin:0;
 }
 
 .publication .pub-title{font-weight:750}
@@ -180,13 +254,15 @@ body.lang-en .lang-block[data-lang="en"]{display:block}
 @media (max-width: 860px){
   .header-inner{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr 1fr}
-  .ai-workflow{grid-template-columns:1fr}
+  .activity-card{grid-template-columns:minmax(0,1fr) 180px}
 }
 @media (max-width: 520px){
   .identity{align-items:flex-start}
   .avatar{width:88px; height:88px; border-radius:22px}
   .grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
+  .activity-card{grid-template-columns:1fr}
+  .activity-thumb{height:118px}
 }
 
 @media print{
