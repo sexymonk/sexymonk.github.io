@@ -3,8 +3,8 @@
 - Target: Internship in Computer Graphics / Physics Simulation / GPU Computing
 - GitHub: [github.com/sexymonk](https://github.com/sexymonk)
 - ORCID: [0009-0005-1829-9914](https://orcid.org/0009-0005-1829-9914)
-- Email: [junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)
-- Phone: +86 135 9593 83335
+- Email: [liujunyuan22@mails.ucas.ac.cn](mailto:liujunyuan22@mails.ucas.ac.cn)
+- Phone: +86 135 9593 8335
 - Location: Beijing, China
 
 ## Summary
@@ -48,6 +48,16 @@ Ph.D. student at University of Chinese Academy of Sciences (UCAS) (2025.03–exp
     - Implemented key modules for graphics-oriented physics simulation and integrated prototypes into production-quality code
     - Optimized parallel kernels and data structures to improve performance and stability
     - Supported particle fluid simulation with complex boundary interactions
+
+## AI-assisted Research Workflow
+
+- Codex / Agent workflow
+  - High-intensity builder and daily user of agent-based workflows for research engineering, code review, experiment planning, validation evidence, documentation, and automation tasks
+  - Hands-on experience building and applying Vibe Coding prototypes and tools, including requirement decomposition, evidence organization, and handoff-based collaboration
+  - Following Agent/Harness, Physical AI, and AI automation trends, with a focus on connecting them to physics simulation, engine R&D, and research engineering workflows
+  - Activity evidence: 21.32B total tokens, 540M peak day, 19-day current streak, and 36-day longest streak
+
+![Codex token usage activity graph](../assets/codex-activity.png?v=20260630)
 
 ## Skills
 

@@ -6,7 +6,7 @@
 - 个人主页：https://sexymonk.github.io/
 - 主页：GitHub [github.com/sexymonk](https://github.com/sexymonk)
 - ORCID：[0009-0005-1829-9914](https://orcid.org/0009-0005-1829-9914)
-- 邮箱：[junyuanliu@foxmail.com](mailto:junyuanliu@foxmail.com)
+- 邮箱：[liujunyuan22@mails.ucas.ac.cn](mailto:liujunyuan22@mails.ucas.ac.cn)
 - 电话：13595938335
 - 城市：北京
 
@@ -51,6 +51,16 @@
     - 实现图形学物理仿真的关键模块与算法原型，并完成工程化落地
     - 针对并行计算/数据结构进行优化，提升仿真效率与稳定性
     - 支持粒子流体与复杂边界/碰撞场景的仿真需求
+
+## AI 辅助科研工程流程
+
+- Codex / Agent 工作流
+  - 高强度 Agent 工作流搭建者与深度用户，长期使用 Codex 协同完成科研项目、代码审阅、实验验证、资料整理和自动化任务
+  - 具备多个 Vibe Coding 原型/工具的开发与应用经验，将 AI 工具融入需求拆解、验证证据整理和 handoff 沉淀
+  - 持续关注 Agent/Harness、Physical AI 与 AI 自动化趋势，探索其在物理仿真、引擎研发和科研工程流程中的应用
+  - 活跃度证据：累计 Token 213.2 亿、峰值日 5.4 亿、当前连续使用 19 天、最长连续使用 36 天
+
+![Codex Token 活跃图](../assets/codex-activity.png?v=20260630)
 
 ## 技能
 

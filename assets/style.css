@@ -102,7 +102,7 @@ a{color:inherit}
 .contact{display:flex; align-items:center}
 .contact-grid{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap:10px 16px;
   width:100%;
 }
@@ -121,6 +121,41 @@ a{color:inherit}
 }
 
 .project h3{margin:0 0 6px; font-size:16px}
+
+.ai-workflow{
+  display:grid;
+  grid-template-columns: minmax(0, .92fr) minmax(280px, 1.08fr);
+  gap:16px;
+  align-items:center;
+}
+
+.ai-workflow h3{margin:0 0 6px; font-size:16px}
+
+.metric-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+
+.metric-row span{
+  display:inline-flex;
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:6px 9px;
+  background:var(--panel);
+  color:var(--muted);
+  font-size:13px;
+  font-weight:650;
+}
+
+.activity-image{
+  width:100%;
+  border-radius:14px;
+  border:1px solid rgba(15,23,42,.12);
+  display:block;
+  background:#111;
+}
 
 .publication .pub-title{font-weight:750}
 .publication .pub-meta{margin-top:4px; color:var(--muted)}
@@ -145,6 +180,7 @@ body.lang-en .lang-block[data-lang="en"]{display:block}
 @media (max-width: 860px){
   .header-inner{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr 1fr}
+  .ai-workflow{grid-template-columns:1fr}
 }
 @media (max-width: 520px){
   .identity{align-items:flex-start}
